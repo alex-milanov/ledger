@@ -3,7 +3,7 @@
 const {obj, arr} = require('iblokz-data');
 
 // namespaces=
-const counter = require('./counter');
+const account = require('./account');
 
 // initial
 const initial = {
@@ -19,7 +19,7 @@ const arrToggle = (key, value) => state =>
 
 module.exports = {
 	initial,
-	counter,
+	account,
 	set,
 	toggle,
 	arrToggle

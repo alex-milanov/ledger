@@ -6,9 +6,9 @@ const {
 	section, button, span
 } = require('iblokz-snabbdom-helpers');
 // components
-const counter = require('./counter');
+const account = require('./account');
 
 module.exports = ({state, actions}) => section('#ui', [
-	h1('UI Boilerplate'),
-	counter({state, actions})
+	h1('Ledger Prototype'),
+	account({state, actions})
 ]);
